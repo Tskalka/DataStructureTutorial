@@ -4,10 +4,20 @@
 * Introduction
 
 ## II. Stacks
-* Introduction
+* What is a stack?
+* When to use them?
+* Performance
+* Stacks in C#
  
 ## III. Sets
-* Introduction
+* What is a set?
+* When to use them?
+* Performance
+* Sets in C#
 
 ## IV. Trees
 * Introduction
+* What are trees?
+* When to use them?
+* Performance
+* Trees in C#
