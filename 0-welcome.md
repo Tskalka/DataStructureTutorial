@@ -1,13 +1,13 @@
 # C# Data Structure Tutorial
 
 ## I. Welcome
-1. Introduction
+* Introduction
 
 ## II. Stacks
-1. Introduction
-2. 
+* Introduction
+ 
 ## III. Sets
-1. Introduction
+* Introduction
 
 ## IV. Trees
-1. Introduction
+* Introduction
