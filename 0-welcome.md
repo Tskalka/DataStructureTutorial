@@ -1,4 +1,4 @@
-# C# Data Structure Tutorial
+# Python Data Structure Tutorial
 
 ## I. Welcome
 * Introduction
