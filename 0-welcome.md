@@ -8,17 +8,17 @@
 * How to implement a Stack in Python
 * Common Stack Operations/ Big O
 * Example Problem
-* Try it yourself problem
+* Test your knowledge problem
  
 ## III. Sets
 * What is a set?
 * When to use them?
 * Performance
-* Sets in C#
+* Sets in python
 
 ## IV. Trees
 * Introduction
 * What are trees?
 * When to use them?
 * Performance
-* Trees in C#
+* Trees in python
