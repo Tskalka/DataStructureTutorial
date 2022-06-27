@@ -5,11 +5,10 @@
 
 ## II. Stacks
 * What is a stack?
-* When to use them?
-* Performance - Big O notation
-* Stacks in C#
+* How to implement a Stack in Python
+* Common Stack Operations/ Big O
 * Example Problem
-* 
+* Try it yourself problem
  
 ## III. Sets
 * What is a set?
