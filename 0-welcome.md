@@ -6,6 +6,7 @@
 ## II. Stacks
 * What is a stack?
 * How to implement a Stack in Python
+* Real World Example of a Stack
 * Common Stack Operations/ Big O
 * Example Problem
 * Test your knowledge problem
