@@ -6,8 +6,10 @@
 ## II. Stacks
 * What is a stack?
 * When to use them?
-* Performance
+* Performance - Big O notation
 * Stacks in C#
+* Example Problem
+* 
  
 ## III. Sets
 * What is a set?
