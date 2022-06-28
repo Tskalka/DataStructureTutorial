@@ -15,7 +15,7 @@ driveway.append("blue")
 driveway.append("black")
 driveway.append("silver")
 
-#The last car in the driveway is removed! (silver)
+#The last car in the driveway leaves (silver)
 driveway.pop()
 
 for car in driveway:
