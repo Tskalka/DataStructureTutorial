@@ -3,7 +3,7 @@
 ## I. Welcome
 * Introduction
 
-## II. Stacks
+## II. [Stack](https://github.com/Tskalka/DataStructureTutorial/blob/main/1-Stacks.md)
 * What is a stack?
 * How to implement a Stack in Python
 * Real World Example of a Stack
