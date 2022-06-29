@@ -39,8 +39,7 @@ len = len(stack)
 #empty
 if len(stack) == 0:
 ```
-
-
 ## Example Problem
+### Reversing the order of a list using a stack
 
 ## Test your knowledge problem
