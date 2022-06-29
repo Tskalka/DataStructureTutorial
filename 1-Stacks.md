@@ -41,6 +41,7 @@ if len(stack) == 0:
 ```
 ## Example Problem
 ### Reversing the order of a list using a stack
+Using a stack makes a common problem like reversing the order of a list quite simple.
 ```python
 # Reverse the order of the list!
 original_list = [1, 2, 3, 4, 5]
@@ -56,6 +57,4 @@ for item in range(len(original_list)):
 print(reversed_list)
 #Output [5, 4, 3, 2, 1]
 ```
-
-
 ## Test your knowledge problem
