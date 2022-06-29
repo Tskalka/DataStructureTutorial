@@ -41,5 +41,21 @@ if len(stack) == 0:
 ```
 ## Example Problem
 ### Reversing the order of a list using a stack
+```python
+# Reverse the order of the list!
+original_list = [1, 2, 3, 4, 5]
+reversed_list = []
+
+#iterates through all the items of the list
+for item in range(len(original_list)):
+    #Removes the value from the end of original_list!
+    value = original_list.pop()
+    #Adds the last item of original list to the empty reversed list
+    reversed_list.append(value)
+
+print(reversed_list)
+#Output [5, 4, 3, 2, 1]
+```
+
 
 ## Test your knowledge problem
