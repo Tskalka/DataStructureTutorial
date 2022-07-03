@@ -61,4 +61,26 @@ print(reversed_list)
 ```
 By using pop to remove and return the last values of the list, you can then push the popped values to the empty new list.
 ## Test your knowledge problem
+You are keeping track of cars as they come and go from your driveway. Following this leger of the stack of cars, answer the follwing questions.
+* How many cars are left on the driveway?, 
+* Which car(s) are still in the driveway?
+* What order are they in?
+```python
+#What car is left in the driveway
 
+driveway = []
+driveway.append("car 1")
+driveway.append("car 2")
+driveway.pop()
+driveway.append("car 3")
+driveway.append("car 4")
+driveway.pop()
+driveway.pop()
+driveway.append("car 5")
+driveway.append("car 6")
+driveway.pop()
+driveway.append("car 7")
+driveway.pop()
+
+````
+Solution: 
