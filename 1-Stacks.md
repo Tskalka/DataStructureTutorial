@@ -57,4 +57,5 @@ for item in range(len(original_list)):
 print(reversed_list)
 #Output [5, 4, 3, 2, 1]
 ```
+By using pop to remove and return the last values of the list. Then you can push the last values to the beginning of an empty list.
 ## Test your knowledge problem
