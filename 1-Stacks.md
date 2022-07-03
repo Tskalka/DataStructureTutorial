@@ -5,7 +5,7 @@ A stack is a data structure that *insertion* and *deletion* happen on the same e
 
 ## Real world example of a stack
 A good example of a stack is a long driveway that has a width of one car. Any car that comes into the driveway, adds itself to the back of the line of cars. Any car that leaves from the driveway, also leaves from the back.
-![Alt text](https://github.com/Tskalka/DataStructureTutorial/blob/main/assets/Driveway.PNG)
+![Driveway](https://github.com/Tskalka/DataStructureTutorial/blob/main/assets/Driveway.PNG)
 
 ## How to implement a Stack using a list in Python
 ```python
