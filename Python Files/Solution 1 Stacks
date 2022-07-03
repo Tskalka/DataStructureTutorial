@@ -1,0 +1,15 @@
+driveway = []
+driveway.append("car 1")
+driveway.append("car 2")
+driveway.pop()
+driveway.append("car 3")
+driveway.append("car 4")
+driveway.pop()
+driveway.pop()
+driveway.append("car 5")
+driveway.append("car 6")
+driveway.pop()
+driveway.append("car 7")
+driveway.pop()
+
+print(driveway)
