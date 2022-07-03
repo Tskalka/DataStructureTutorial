@@ -83,4 +83,4 @@ driveway.append("car 7")
 driveway.pop()
 
 ````
-Solution: 
+[Solution](https://github.com/Tskalka/DataStructureTutorial/blob/main/Python%20Files/solution1_stacks.py)
