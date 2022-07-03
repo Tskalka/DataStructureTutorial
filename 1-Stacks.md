@@ -28,6 +28,7 @@ for car in driveway:
 * pop() - Removes/returns the value from the back of the stack
 * size() - returns the size of the stack
 * empty() - returns true is stack length is 0
+
 **The Big O for ALL the common operators is 0(1)**
 ```python
 stack = []
