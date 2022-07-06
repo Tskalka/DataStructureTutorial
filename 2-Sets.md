@@ -20,6 +20,7 @@ empty_set = set()
 * remove(value) - Removes value from the set
 * member(value) - Determines if the value is part of a set
 * size() - returns the number of items in a set
+**The Big O for ALL the common operators is 0(1)**
 ```python
 #add
 example_set.add(value)
