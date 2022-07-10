@@ -32,6 +32,25 @@ if value in example_set:
 #size
 length = len(example_set)
 ```
+# Union and Intersection in Sets
+* union() - combines two sets together into one
+* intersection() - finds the same numbers from two different sets
+```python
+my_set1= {5, 10, 15, 20}
+my_set2 = {10, 20, 30}
+#two different ways to unionize two sets in python
+union_set = union(my_set1, my_set2)
+union_set = my_set1 & my_set2
+#results:
+#{5, 10, 15, 20, 30}
+
+#two different ways to do a set intersection in python
+intersection_set = intersection(my_set1, my_set2)
+intersection_set = my_set1 | my_set2
+#results:
+#{10, 20}
+```
+
 ## Example Problem
 
 ## Test your knowledge problem
