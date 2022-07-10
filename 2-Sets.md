@@ -32,7 +32,7 @@ if value in example_set:
 #size
 length = len(example_set)
 ```
-# Union and Intersection in Sets
+### Union and Intersection in Sets
 * union() - combines two sets together into one
 * intersection() - finds the same numbers from two different sets
 ```python
