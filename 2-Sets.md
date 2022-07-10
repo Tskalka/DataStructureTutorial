@@ -53,6 +53,20 @@ You have been given two large sets of data at your new job. You job is to remove
 Using a set, how would you solve this problem?
 ```python
 #Data given to you
+data_set1 = {1, 2, 2, 2, 3, 5, 8, 99, 99, 500, 500, 300, 55, 37, 28}
+
+data_set2 = {1, 1, 1, 1, 5, 8, 9, 11, 350, 980, 300, 341, 55, 27 , 38}
+
+# This problem is quite easy to solve if you understand sets. Remember sets cannot have duplicate numbers.
+# So if we create a combined set of data_set1 and data_set2, it will give us all the unique values of each set
+
+#shorthand for creating a union
+combined_data = data_set1 | data_set2
+print(combined_data)
+
+#The results:
+{1, 2, 3, 5, 8, 9, 11, 980, 341, 27, 28, 350, 99, 37, 38, 300, 500, 55}
+
 ```
 
 ## Test your knowledge problem
