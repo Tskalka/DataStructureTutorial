@@ -78,4 +78,4 @@ How would you go about solving this using a set?
 data_set3 = {1, 8, 17, 15, 27, 40, 38, 94, 100, 567, 394}
 data_set4 = {1, 10, 15, 20, 25, 27, 44, 37, 97, 83, 100}
 ```
-[Solution](https://github.com/Tskalka/DataStructureTutorial/edit/main/2-Sets.md)
+[Solution](https://github.com/Tskalka/DataStructureTutorial/blob/main/Python%20Files/solution2_sets.py)
