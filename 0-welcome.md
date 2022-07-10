@@ -11,11 +11,12 @@
 * Example Problem
 * Test your knowledge problem
  
-## III. Sets
+## III. [Sets](https://github.com/Tskalka/DataStructureTutorial/blob/main/2-Sets.md)
 * What is a set?
-* When to use them?
-* Performance
-* Sets in python
+* How to implement a set in python
+* Common set operations/ Big O
+* Example problem
+* Test your knowledge problem
 
 ## IV. Trees
 * Introduction
