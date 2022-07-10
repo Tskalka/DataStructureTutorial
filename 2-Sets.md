@@ -49,6 +49,11 @@ intersection_set = my_set1 | my_set2
 ```
 
 ## Example Problem
+You have been given two large sets of data at your new job. You job is to remove all the duplicate items present in both datasets.
+Using a set, how would you solve this problem?
+```python
+#Data given to you
+```
 
 ## Test your knowledge problem
 
