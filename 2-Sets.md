@@ -37,13 +37,13 @@ my_set1= {5, 10, 15, 20}
 my_set2 = {10, 20, 30}
 #two different ways to unionize two sets in python
 union_set = union(my_set1, my_set2)
-union_set = my_set1 & my_set2
+union_set = my_set1 | my_set2
 #results:
 #{5, 10, 15, 20, 30}
 
 #two different ways to do a set intersection in python
 intersection_set = intersection(my_set1, my_set2)
-intersection_set = my_set1 | my_set2
+intersection_set = my_set1 & my_set2
 #results:
 #{10, 20}
 ```
@@ -70,4 +70,11 @@ print(combined_data)
 ```
 
 ## Test your knowledge problem
+You are given 2 new sets of data again at your new job, but now, your boss wants you to only return the duplicate items from the two sets of data.
+How would you go about solving this using a set?
 
+```python
+#find the repeated values from the two data sets
+data_set3 = {1, 8, 17, 15, 27, 40, 38, 94, 100, 567, 394}
+data_set4 = {1, 10, 15, 20, 25, 27, 44, 37, 97, 83, 100}
+```
