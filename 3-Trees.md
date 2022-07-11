@@ -1,6 +1,8 @@
 # Trees in Python
 
-## What is a stack?
+## What are trees in python?
+
+# Recursion
 
 ## Real world example of a stack
 
