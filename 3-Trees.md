@@ -2,6 +2,8 @@
 
 ## What are Trees in python?
 
+
+https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Tree.PNG
 ### Recursion
 
 ## Real world example of a Tree
