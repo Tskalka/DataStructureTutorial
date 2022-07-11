@@ -1,5 +1,4 @@
-
-# Stacks in Python
+# Trees in Python
 
 ## What is a stack?
 
