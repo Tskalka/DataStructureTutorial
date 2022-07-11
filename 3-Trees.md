@@ -1,18 +1,15 @@
 # Trees in Python
 
-## What are trees in python?
+## What are Trees in python?
 
 ### Recursion
 
-## Real world example of a stack
+## Real world example of a Tree
 
-## How to implement a Stack using a list in Python
+## How to implement a Tree in python
 
-## Common Stack Operations/ Big O
-
-**The Big O for ALL the common operators is 0(1)**
+## Common Tree Operations/ Big O
 
 ## Example Problem
-
 
 ## Test your knowledge problem
