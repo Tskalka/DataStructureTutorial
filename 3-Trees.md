@@ -2,7 +2,7 @@
 
 ## What are trees in python?
 
-# Recursion
+### Recursion
 
 ## Real world example of a stack
 
