@@ -28,7 +28,7 @@ Open Addressing - If something is already using the space that the data is suppo
 
 *Remember* more conflicts means less efficent performance
 
-Chaining - Is done by creating a list of data to occupy the same space. This resolves the conflict without potetnial of creating more conflicts like open addressing.
+Chaining - Is done by having both items occupy the same space in a list. This resolves the conflict without potetnial of creating more conflicts like open addressing.
 
 
 
