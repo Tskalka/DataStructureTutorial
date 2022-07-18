@@ -141,6 +141,37 @@ def __iter__(self):
 ````
 
 * height(node) - Returns height of the 
+```python
+    def get_height(self):
+        """
+        Determine the height of the BST.  Note that an empty tree
+        will have a height of 0 and a tree with one item (root) will
+        have a height of 1.
+        """
+        if self.root is None:
+            return 0
+        else:
+            return self._get_height(self.root)  # Start at the root
+
+    def _get_height(self, node):
+        """
+        This function intended to be called the first time by 
+        get_height.
+        """
+        if node is None:
+            return 0
+
+        right = self._get_height(node.right) + 1
+        left = self._get_height(node.left) + 1
+
+        #Decides which sub-tree is taller and returns it
+        if right > left:
+            return right
+        else:
+            return left
+```
+
+
 * size() - Returns size of the tree
 * empty() - Returns true if the tree is empty.
 
