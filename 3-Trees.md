@@ -86,6 +86,34 @@ def _insert(self, data, node):
                 self._insert(data, node.right)
 ```
 * remove(value) - Removes value from the tree
+```python
+def __iter__(self):
+        """
+        Perform a forward traversal (in order traversal) starting from 
+	    the root of the BST.
+
+        for value in my_bst:
+            print(value)
+
+        """
+        yield from self._traverse_forward(self.root)  # Start at the root
+        
+    def _traverse_forward(self, node):
+        """
+        Does a forward traversal (in-order traversal) through the 
+        BST. 
+
+        for value in my_bst:
+            print(value)
+
+        This function is intended to be called the first time by 
+        the __iter__ function.
+        """
+        if node is not None:
+            yield from self._traverse_forward(node.left)
+            yield node.data
+            yield from self._traverse_forward(node.right)
+```
 * contains(value) - Determines if a value is in the tree
 * traverse_forward - Iterates through all the objects, small to large
 * traverse_reverse - Iterates through all objects from large to small
