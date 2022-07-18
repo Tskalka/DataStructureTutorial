@@ -49,14 +49,6 @@ class BST:
 
 ## Common Binary Search tree Operations/ Big O
 * insert(value) - Inserts value to the tree
-* remove(value) - Removes value from the tree
-* contains(value) - Determines if a value is in the tree
-* traverse_forward - Iterates through all the objects, small to large
-* traverse_reverse - Iterates through all objects from large to small
-* height(node) - Returns height of the 
-* size() - Returns size of the tree
-* empty() - Returns true if the tree is empty.
-
 ```python
 def insert(self, data):
         """
@@ -93,6 +85,15 @@ def _insert(self, data, node):
                 # recursively on the right sub-tree.
                 self._insert(data, node.right)
 ```
+* remove(value) - Removes value from the tree
+* contains(value) - Determines if a value is in the tree
+* traverse_forward - Iterates through all the objects, small to large
+* traverse_reverse - Iterates through all objects from large to small
+* height(node) - Returns height of the 
+* size() - Returns size of the tree
+* empty() - Returns true if the tree is empty.
+
+
 
 
 
