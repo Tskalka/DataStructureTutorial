@@ -3,6 +3,8 @@
 ## What is a Set?
 A set list is a datastructure where order does not matter and no duplicates are allowed, but with these restrictions, comes great benefits. We can determine if something is part of the defined set in O(1) time, which is extremely efficent. 
 
+### Hasing/how a set acheives O(1) performance
+
 ## How to implement a Set in python
 A set is written with curly braces
 ```python
