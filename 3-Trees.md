@@ -1,5 +1,5 @@
 # Trees in Python
-
+Trees have nodes and pointers like linked lists
 ## What are trees in python?
 
 ### Binary tree
