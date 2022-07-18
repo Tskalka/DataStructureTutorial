@@ -10,6 +10,7 @@ So the index of where the item will be assigned in a set is equal to the number 
 Here is an example:
 
 ![Hashing example](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Hashing%20example.PNG)
+
 This creates what is called a *Sparsed list* because potentially not all the indexes are going to be filled.
 
 
