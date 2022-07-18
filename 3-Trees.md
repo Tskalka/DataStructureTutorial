@@ -1,5 +1,4 @@
 # Trees in Python
-Trees have nodes and pointers like linked lists
 ## What are trees in python?
 
 ### Binary tree
@@ -7,6 +6,7 @@ Trees have nodes and pointers like linked lists
 ![Tree](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Tree.PNG)
 
 ### Binary Search tree
+
 ![BST](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Binary%20Search%20Tree.PNG)
 
 ### Balanced Binary Search tree
