@@ -7,8 +7,10 @@ A set list is a datastructure where order does not matter and no duplicates are 
 Hashing makes it extremely efficent to determine if a number is part of a set. This is done by following this rule:
 * index(n) = n.
 So the index of where the item will be assigned in a set is equal to the number itself
-Here is an example
+Here is an example:
+
 ![Hashing example](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Hashing%20example.PNG)
+This creates what is called a *Sparsed list* because potentially not all the indexes are going to be filled.
 
 
 ## How to implement a Set in python
