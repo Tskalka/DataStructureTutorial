@@ -57,6 +57,20 @@ class BST:
 * size() - Returns size of the tree
 * empty() - Returns true if the tree is empty.
 
+```python
+def insert(self, data):
+        """
+        Insert 'data' into the BST.  If the BST
+        is empty, then set the root equal to the new 
+        node.  Otherwise, use _insert to recursively
+        find the location to insert.
+        """
+        if self.root is None:
+            self.root = BST.Node(data)
+        else:
+            self._insert(data, self.root)  # Start at the root
+```
+
 ## Example Problem
 
 ## Test your knowledge problem
