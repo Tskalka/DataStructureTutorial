@@ -18,6 +18,9 @@ We use what is called a *hashing function.* This simply converts the data into a
 
 Now finding the data we want is easy because we already know what the index will be. Thus giving us a O(1) performance for determining if the data is part of our set.
 
+### Conflict resolution
+
+
 ## How to implement a Set in python
 A set is written with curly braces
 ```python
