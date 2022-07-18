@@ -12,7 +12,8 @@ Here is an example:
 ![Hashing example](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Hashing%20example.PNG)
 
 This creates what is called a *sparse list* because potentially not all the indexes are going to be filled.
-
+### What do we do when we want adding non-integer values to our set?
+We use what is called a *hashing function.* This simply converts the data into an integer we can use to create out sparse list. Python has a built in hashing function that makes things easier for us.
 
 ## How to implement a Set in python
 A set is written with curly braces
