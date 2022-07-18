@@ -86,6 +86,9 @@ def _insert(self, data, node):
                 self._insert(data, node.right)
 ```
 * remove(value) - Removes value from the tree
+
+* contains(value) - Determines if a value is in the tree
+* traverse_forward - Iterates through all the objects, small to large
 ```python
 def __iter__(self):
         """
@@ -114,9 +117,29 @@ def __iter__(self):
             yield node.data
             yield from self._traverse_forward(node.right)
 ```
-* contains(value) - Determines if a value is in the tree
-* traverse_forward - Iterates through all the objects, small to large
 * traverse_reverse - Iterates through all objects from large to small
+
+```python
+
+ def __reversed__(self):
+        """
+        for value in reversed(my_bst):
+            print(value)
+        """        
+        yield from self._traverse_backward(self.root)  # Start at the root
+
+ def _traverse_backward(self, node):
+        """
+        Does a backwards traversal (reverse in-order traversal) through the 
+        BST.         
+        """
+        # Do the opposite of traverse forward
+        if node is not None:
+            yield from self._traverse_backward(node.right)
+            yield node.data
+            yield from self._traverse_backward(node.left)
+````
+
 * height(node) - Returns height of the 
 * size() - Returns size of the tree
 * empty() - Returns true if the tree is empty.
