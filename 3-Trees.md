@@ -8,8 +8,10 @@ Trees have nodes and pointers like linked lists
 ### Binary Search tree
 
 ### Balanced Binary Search tree
-### Recursion
 
+### Unbalanced Binary Search tree/Linked List
+
+### Recursion
 ## How to implement a Tree in Python
 
 ## Common Tree Operations/ Big O
