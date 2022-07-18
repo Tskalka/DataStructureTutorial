@@ -25,8 +25,10 @@ There are two different ways to resolve this conflict
 * 2. Chaining
 
 Open Addressing - If something is already using the space that the data is supposed to get hashed into, that new data will try checking the space to the right of the occupied space. If that's taken , it will continue moving once to the right to find an open space. This can cause problems and even more conflicts if the next spots of the sparse list are taken.
+
 *Remember* more conflicts means less efficent performance
 
+Chaining - Is done by creating a list of data to occupy the same space. This resolves the conflict without potetnial of creating more conflicts like open addressing.
 
 
 
