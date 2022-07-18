@@ -1,12 +1,16 @@
 # Trees in Python
 
-## What are Trees in python?
+## What are trees in python?
 
-
+### Binary tree
 ![Tree](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Tree.PNG)
+
+### Binary Search tree
+
+### Balanced Binary Search tree
 ### Recursion
 
-## How to implement a Tree in python
+## How to implement a Tree in Python
 
 ## Common Tree Operations/ Big O
 
