@@ -23,6 +23,30 @@
 Try it a few times :)
 ## How to implement a Tree in Python
 
+```python
+class BST:
+    class Node:
+        """
+        Each node connects to the left/right subtree
+        """
+
+        def __init__(self, data):
+            """ 
+            Node's links are set to none
+            """
+       
+            self.data = data
+            self.left = None
+            self.right = None
+
+    def __init__(self):
+        """
+        Setting the root node to none, empty tree
+        """
+        self.root = None
+
+```
+
 ## Common Binary Search tree Operations/ Big O
 
 
