@@ -15,6 +15,8 @@ This creates what is called a *sparse list* because potentially not all the inde
 ### What do we do when we want adding non-integer values to our set?
 We use what is called a *hashing function.* This simply converts the data into an integer we can use to create out sparse list. Python has a built in hashing function that makes things easier for us.
 
+Now finding the data we want is easy because we already know what the index will be. Thus giving us a O(1) performance for determining if the data is part of our set.
+
 ## How to implement a Set in python
 A set is written with curly braces
 ```python
