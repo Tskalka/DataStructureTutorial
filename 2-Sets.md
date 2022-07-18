@@ -11,7 +11,7 @@ Here is an example:
 
 ![Hashing example](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Hashing%20example.PNG)
 
-This creates what is called a *Sparsed list* because potentially not all the indexes are going to be filled.
+This creates what is called a *sparse list* because potentially not all the indexes are going to be filled.
 
 
 ## How to implement a Set in python
