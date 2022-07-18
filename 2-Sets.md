@@ -1,7 +1,7 @@
 # Set in Python
 
 ## What is a Set?
-A set list is a datastructure where order does not matter and no duplicates are allowed, but with these restrictions, comes great benefits. We can determine if something is part of the defined set in O(1) time, which is extremely efficent. 
+A set is a datastructure where order does not matter and no duplicates are allowed, but with these restrictions, comes great benefits. We can determine if something is part of the defined set in O(1) time, which is extremely efficent. 
 
 ### Hasing/how a set acheives O(1) performance
 Hashing makes it extremely efficent to determine if a number is part of a set. This is done by following this rule:
