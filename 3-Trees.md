@@ -19,7 +19,7 @@ Trees have nodes and pointers like linked lists
 
 ### Recursion
 ### Recursion Example
-[Recursion] (https://github.com/Tskalka/DataStructureTutorial/blob/main/3-Trees.md)
+[Recursion](https://github.com/Tskalka/DataStructureTutorial/blob/main/3-Trees.md)
 ## How to implement a Tree in Python
 
 ## Common Binary Search tree Operations/ Big O
