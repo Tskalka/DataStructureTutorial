@@ -20,7 +20,8 @@ Trees have nodes and pointers like linked lists
 ### Recursion
 ## How to implement a Tree in Python
 
-## Common Tree Operations/ Big O
+## Common Binary Search tree Operations/ Big O
+
 
 ## Example Problem
 
