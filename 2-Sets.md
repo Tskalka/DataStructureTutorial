@@ -20,7 +20,7 @@ empty_set = set()
 * member(value) - Determines if the value is part of a set
 * size() - returns the number of items in a set
 
-**The Big O for ALL the common operators is 0(1)**
+**The Big O for ALL the common operators is 0(1) thanks to hasing (explained above)**
 ```python
 #add
 example_set.add(value)
