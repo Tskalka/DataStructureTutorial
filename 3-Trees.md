@@ -49,6 +49,7 @@ class BST:
 
 ## Common Binary Search tree Operations/ Big O
 * insert(value) - Inserts value to the tree
+* Performance O(log n)
 ```python
 def insert(self, data):
         """
@@ -86,9 +87,13 @@ def _insert(self, data, node):
                 self._insert(data, node.right)
 ```
 * remove(value) - Removes value from the tree
+* Performance O(log n)
 
 * contains(value) - Determines if a value is in the tree
+* Performance O(log n)
+
 * traverse_forward - Iterates through all the objects, small to large
+* Performance O(n)
 ```python
 def __iter__(self):
         """
@@ -118,7 +123,7 @@ def __iter__(self):
             yield from self._traverse_forward(node.right)
 ```
 * traverse_reverse - Iterates through all objects from large to small
-
+* Performance O(n)
 ```python
 
  def __reversed__(self):
@@ -140,7 +145,8 @@ def __iter__(self):
             yield from self._traverse_backward(node.left)
 ````
 
-* height(node) - Returns height of the 
+* height(node) - Returns height of the tree
+* Performance O(n)
 ```python
     def get_height(self):
         """
@@ -173,6 +179,7 @@ def __iter__(self):
 
 
 * size() - Returns size of the tree
+* Performance O(1)
 ```python
 def size(node):
     if node is None:
@@ -181,6 +188,7 @@ def size(node):
         return (size(node.left)+ 1 + size(node.right))
 ```
 * empty() - Returns true if the tree is empty.
+* Performance O(1)
 
 
 
