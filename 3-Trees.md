@@ -18,6 +18,8 @@ Trees have nodes and pointers like linked lists
 ![Linked List](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Unbalanced%20BST%20Linked%20list.PNG)
 
 ### Recursion
+### Recursion Example
+[Recursion] ()
 ## How to implement a Tree in Python
 
 ## Common Binary Search tree Operations/ Big O
