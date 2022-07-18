@@ -19,6 +19,15 @@ We use what is called a *hashing function.* This simply converts the data into a
 Now finding the data we want is easy because we already know what the index will be. Thus giving us a O(1) performance for determining if the data is part of our set.
 
 ### Conflict resolution
+What happens when we want to add data to our sparse list that already has something in the spot it is supposed to go? Having too many conflicts can affect our performance.
+There are two different ways to resolve this conflict
+* 1. Open Addressing
+* 2. Chaining
+
+Open Addressing - If something is already using the space that the data is supposed to get hashed into, that new data will try checking the space to the right of the occupied space. If that's taken , it will continue moving once to the right to find an open space. This can cause problems and even more conflicts if the next spots of the sparse list are taken.
+*Remember* more conflicts means less efficent performance
+
+
 
 
 ## How to implement a Set in python
