@@ -173,6 +173,13 @@ def __iter__(self):
 
 
 * size() - Returns size of the tree
+```python
+def size(node):
+    if node is None:
+        return 0
+    else:
+        return (size(node.left)+ 1 + size(node.right))
+```
 * empty() - Returns true if the tree is empty.
 
 
