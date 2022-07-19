@@ -1,6 +1,6 @@
 # Trees in Python
 ## What are trees in python?
-Trees is a datastructure that has nodes that are connected by pointers. It is similar to the structure of a linked list.
+Trees are a data structure that has nodes that are connected by pointers. It is similar to the structure of a linked list.
 In this tutorial, we will talk about a binary tree, a binary search tree, and a balanced binary search tree.
 
 ### Binary tree
@@ -22,9 +22,14 @@ As an example, imagine the number 8 is our parent node (view picture above). If 
 
 ![Balanced BST](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Balanced%20Binary%20Tree.PNG)
 
+This is a binary tree where the height of the left and right subtree do not differ more than 1.
+By having our binary search tree balanced, we can maintain an O(log n) performance for searching within the tree.
+
 ### Unbalanced Binary Search tree/Linked List
 
 ![Linked List](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Unbalanced%20BST%20Linked%20list.PNG)
+
+This is an example of an unbalanced binary serach tree, which in actuality, is just a linked list. This means that the searching operation has an O(n) performance, meaning that we would potentially need to go through all the data to find the value we are looking for. Maintaining a balanced binary search tree will save you performance.
 
 ### Recursion
 ### Recursion Example
