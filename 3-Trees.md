@@ -306,3 +306,47 @@ print ("The least value in this binary search tree is: %d" %(smallValue(root)))
 ```
 By having our information organized, this problem becomes quite easy to solve.
 ## Test your knowledge problem
+Now that you understand trees, let's test what you have learned. 
+How would you find the largest value of this binary search tree?
+Here is some starter code:
+```python
+
+class Node:
+
+	# Constructor to create a new node
+	def __init__(self, key):
+		self.data = key
+		self.left = None
+		self.right = None
+
+def insert(node, data):
+
+	if node is None:
+		return (Node(data))
+
+	else:
+
+		if data <= node.data:
+			node.left = insert(node.left, data)
+		else:
+			node.right = insert(node.right, data)
+		return node
+
+def greatValue(node):
+    #insert logic to find the greatest value in the binary search tree. 
+    return 
+    
+root = None
+root = insert(root,4)
+insert(root,3)
+insert(root,1)
+insert(root,2)
+insert(root,6)
+insert(root,5)
+
+print ("The greatest value in this binary search tree is: %d" %(greatValue(root)))
+# this will give us an answer of 1 being the smallest value in the binary search tree.
+
+
+
+```
