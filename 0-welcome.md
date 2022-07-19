@@ -1,7 +1,8 @@
 # Python Data Structure Tutorial
 
 ## I. Welcome
-* Introduction
+My name is Tyler Skalka, I am a computer science student currently studying at BYU Idaho. This is a python tutorial to help learn the basics of some data structures. This is not meant to be an all inclusive guide, but rather a good place to start.
+We will be covering the topics of Stacks, Sets, and Trees all in python. There will be a solution provided for the test your knowledge problem. Good luck learning and have fun!
 
 ## II. [Stack](https://github.com/Tskalka/DataStructureTutorial/blob/main/1-Stacks.md)
 * What is a stack?
