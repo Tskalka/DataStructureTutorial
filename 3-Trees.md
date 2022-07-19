@@ -1,11 +1,13 @@
 # Trees in Python
 ## What are trees in python?
-Trees are nodes that are connected by pointers. It is similar to the structure of a linked list.
+Trees is a datastructure that has nodes that are connected by pointers. It is similar to the structure of a linked list.
 In this tutorial, we will talk about a binary tree, a binary search tree, and a balanced binary search tree.
 
 ### Binary tree
 
 ![Tree](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Tree.PNG)
+A binary tree is a tree that only connects up to two nodes (hence the name binary).
+
 
 ### Binary Search tree
 
