@@ -259,9 +259,50 @@ def isempty(self):
     return self.root is None
 ```
 
-
-
-
 ## Example Problem
+You have been asked to find the smallest value in a binary search tree. How would you go about doing this?
+The answer is actually quite simple, as long as you understand the structure of a binary search tree.
+Remember that any number that is less than the parent node will become the child on the left, so by finding the last value on the left hand side of the tree, will be the lowest value. 
+```python
+class Node:
+	def __init__(self, key):
+		self.data = key
+		self.left = None
+		self.right = None
+# a basic insert function to add numbers to the tree
+def insert(node, data):
 
+	if node is None:
+		return (Node(data))
+
+	else:
+
+		if data <= node.data:
+			node.left = insert(node.left, data)
+		else:
+			node.right = insert(node.right, data)
+		return node
+#this is how we will find the smallest value
+def smallValue(node):
+	current = node
+
+	# We will want to loop through the left side of the binary search tree
+    # because this consists of the values lower than the root node.
+	while(current.left is not None):
+		current = current.left
+	return current.data
+
+
+root = None
+root = insert(root,4)
+insert(root,3)
+insert(root,1)
+insert(root,2)
+insert(root,6)
+insert(root,5)
+
+print ("The least value in this binary search tree is: %d" %(smallValue(root)))
+# this will give us an answer of 1 being the smallest value in the binary search tree.
+```
+By having our information organized, this problem becomes quite easy to solve.
 ## Test your knowledge problem
