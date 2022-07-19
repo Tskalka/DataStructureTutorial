@@ -21,8 +21,6 @@ We will be covering the topics of Stacks, Sets, and Trees all in python. There w
 
 ## IV. [Trees](https://github.com/Tskalka/DataStructureTutorial/blob/main/3-Trees.md)
 * What are trees?
-** Types of trees
-** Recursion
 * How to implement a tree in python
 * Common Binary Serach tree operations/ Big O
 * Example Problem
