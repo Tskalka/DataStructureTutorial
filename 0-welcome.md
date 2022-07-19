@@ -18,9 +18,11 @@
 * Example problem
 * Test your knowledge problem
 
-## IV. Trees
-* Introduction
+## IV. [Trees](https://github.com/Tskalka/DataStructureTutorial/blob/main/3-Trees.md)
 * What are trees?
-* When to use them?
-* Performance
-* Trees in python
+** Types of trees
+** Recursion
+* How to implement a tree in python
+* Common Binary Serach tree operations/ Big O
+* Example Problem
+* Test your knowledge problem
