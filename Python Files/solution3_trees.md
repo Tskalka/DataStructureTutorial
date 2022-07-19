@@ -1,4 +1,5 @@
 ```python
+
 class Node:
 
 	# Constructor to create a new node
@@ -38,4 +39,8 @@ insert(root,5)
 
 print ("The greatest value in this binary search tree is: %d" %(greatValue(root)))
 # This will give us 6 because that is the greatest value in the BST.
+
+
+
+
 ```
