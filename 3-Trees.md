@@ -308,7 +308,7 @@ By having our information organized, this problem becomes quite easy to solve.
 ## Test your knowledge problem
 Now that you understand trees, let's test what you have learned. 
 How would you find the largest value of this binary search tree?
-Here is some starter code:
+Fill out the logic for the greatValue() function to return the greatest value in this binary search tree.
 ```python
 
 class Node:
@@ -334,6 +334,7 @@ def insert(node, data):
 
 def greatValue(node):
     #insert logic to find the greatest value in the binary search tree. 
+    #if you're lost, think about how a binary search tree is organized.
     return 
     
 root = None
@@ -345,8 +346,6 @@ insert(root,6)
 insert(root,5)
 
 print ("The greatest value in this binary search tree is: %d" %(greatValue(root)))
-# this will give us an answer of 1 being the smallest value in the binary search tree.
-
-
 
 ```
+[Solution]
