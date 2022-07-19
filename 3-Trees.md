@@ -237,7 +237,10 @@ def size(node):
 ```
 * empty() - Returns true if the tree is empty.
 * Performance O(1)
-
+```python
+def isempty(self):
+    return self.root is None
+```
 
 
 
