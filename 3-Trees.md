@@ -8,11 +8,15 @@ In this tutorial, we will talk about a binary tree, a binary search tree, and a 
 ![Tree](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Tree.PNG)
 
 A binary tree is a tree that only connects up to two nodes (hence the name binary).
-
+The image above goes over all the basic parts of this binary tree structure.
+Sometimes the nodes can have pointers that go up and down the binary tree.
 
 ### Binary Search tree
 
 ![BST](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Binary%20Search%20Tree.PNG)
+
+A binary search tree has certain rules to help organize the data within. Data placecd into the tree will be compared to the parent node, if it is greater than the value of the parent node, then the value will be placed as a child on the right. If the value being placed is less than that of the parent node, then the value will be placed as a child node on the left.
+As an example, imagine the number 8 is our parent node (view picture above). If I were to pass in the value 9, it would be greater than the parent node 8, so it will be a child placed on the right.
 
 ### Balanced Binary Search tree
 
