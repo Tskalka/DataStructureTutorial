@@ -88,9 +88,57 @@ def _insert(self, data, node):
 ```
 * remove(value) - Removes value from the tree
 * Performance O(log n)
+```python
+def deleteNode(root, data):
+ 
+    # Base Case
+    if root is None:
+        return root
+ 
+    if data < root.data:
+        root.left = deleteNode(root.left, data)
+ 
+    elif(data > root.data):
+        root.right = deleteNode(root.right, data)
+ 
+    else:
+    
+        if root.left is None:
+            temp = root.right
+            root = None
+            return temp
+ 
+        elif root.right is None:
+            temp = root.left
+            root = None
+            return temp
+ 
+        temp = minValueNode(root.right)
+ 
+        root.data = temp.data
+ 
+        root.right = deleteNode(root.right, temp.data)
+ 
+    return root
+```
 
 * contains(value) - Determines if a value is in the tree
 * Performance O(log n)
+```python
+   def contains(self, value):
+        return self._contains(value, self.root)
+
+    def _contains(self, value, node):
+        if node is None or node.value is None:
+            return False
+        else:
+            if value == node.value:
+                return True
+            elif value < node.value:
+                return self._contains(value, node.left)
+            else:
+                return self._contains(value, node.right)
+```
 
 * traverse_forward - Iterates through all the objects, small to large
 * Performance O(n)
