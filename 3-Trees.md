@@ -348,4 +348,4 @@ insert(root,5)
 print ("The greatest value in this binary search tree is: %d" %(greatValue(root)))
 
 ```
-[Solution]
+[Solution](https://github.com/Tskalka/DataStructureTutorial/blob/main/Python%20Files/solution3_trees.md)
