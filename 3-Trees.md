@@ -6,6 +6,7 @@ In this tutorial, we will talk about a binary tree, a binary search tree, and a 
 ### Binary tree
 
 ![Tree](https://github.com/Tskalka/DataStructureTutorial/blob/main/Picture%20Files/Tree.PNG)
+
 A binary tree is a tree that only connects up to two nodes (hence the name binary).
 
 
