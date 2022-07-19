@@ -32,6 +32,9 @@ By having our binary search tree balanced, we can maintain an O(log n) performan
 This is an example of an unbalanced binary serach tree, which in actuality, is just a linked list. This means that the searching operation has an O(n) performance, meaning that we would potentially need to go through all the data to find the value we are looking for. Maintaining a balanced binary search tree will save you performance.
 
 ### Recursion
+Recursion is when a function calls itself, and to prevent this from going on infinitly(or until your editor/environment gets mad), you create what is called a *base case* or logic that will stop the function from calling iteself infinitly.
+We will use recurision to perform a lot of the common operators of trees.
+
 ### Recursion Example
 [Recursion example](https://github.com/Tskalka/DataStructureTutorial/blob/main/3-Trees.md)
 Try it a few times :)
